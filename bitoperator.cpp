@@ -1,11 +1,10 @@
-#include<iostream>
-
+#include <iostream>
 using namespace std;
 
+int main()
+{
 
-int main(){
-
-    //find odd and even number
+    // find odd and even number
 
     // int x = 4;
     // if(x&1){
@@ -14,9 +13,7 @@ int main(){
     //     cout<<"even number\n";
     // }
 
-
-
-    //find set bit in a number
+    // find set bit in a number
 
     // int x =7;
     // int count = 0;
@@ -31,7 +28,10 @@ int main(){
 
     // cout<<count;
 
-    
-    
+    // int a = 10 ;
+    // int *b = &a;
+    // cout<<&a;
+    // cout<<*b;
+
     return 0;
 }
