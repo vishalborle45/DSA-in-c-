@@ -1,8 +1,13 @@
 #include<iostream>
-
+#include<vector>
 using namespace std;
 
 
+void print(vector<int> arr){
+    for(auto it : arr){
+        cout<<it<<" ";
+    }
+}
 int main(){
 
 
@@ -20,6 +25,22 @@ int main(){
     //     cout<<arr[i];
     //     cout<<endl;
     // }
+
+    vector<int>arr({2,43,3,4,2,3,23});
+
+
+    arr.push_back(2222);
+
+    // arr.pop_back();
+    // cout<<arr.front();
+    // cout<<arr.back();
+
+    vector<int>arr2(arr);
+
+    arr2.clear();
+    arr2.push_back(22);
+    print(arr2);
+
 
 
     
